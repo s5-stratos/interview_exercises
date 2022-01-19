@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 public class FilterIteratorTest 
 {
 
-    private static final Predicate<String> predicate = (String s) -> !s.isBlank();
+    private static final Predicate<String> predicate = (String s) -> !s.trim().isEmpty();
 
     /**
      * Rigorous Test :-)

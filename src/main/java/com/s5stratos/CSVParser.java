@@ -53,7 +53,6 @@ public class CSVParser {
 	}
 
 	public String[] readRow() throws IOException {
-		stream.readAllBytes();
 		throw new RuntimeException("not yet implemented");
 	}
 }
